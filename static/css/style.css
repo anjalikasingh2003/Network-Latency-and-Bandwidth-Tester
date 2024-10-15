@@ -1,0 +1,171 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #004692;
+    padding: 15px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #e0e0e0;
+}
+
+.hero-section {
+    text-align: center;
+    background-color: #0056b2;
+    padding: 60px 0;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image {
+    width: 90%;
+    max-width: 450px; /* Adjust max width to your preference */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #0056b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #003875;
+}
+
+.results-section {
+    margin-top: 30px;
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.result-item {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #0056b2;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    margin: 0 10px; /* Spacing between logos */
+}
+
+.footer-logo {
+    max-width: 40px; /* Maximum width of the logo */
+    max-height: 40px; /* Maximum height of the logo */
+    height: 50px; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Added transition for hover */
+}
+
+.footer-logo:hover {
+    transform: scale(1.1); /* Scale on hover */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

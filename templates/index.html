@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Tester</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">Network Tester</a>
+            <div class="footer-links">
+                <a href="https://github.com/IshaanJainOfficial" target="_blank">
+                    <img src="/static/images/github1-removebg-preview.png" alt="GitHub" class="footer-logo">
+                </a>
+                <a href="mailto:ishaan_j@cs.iitr.ac.in">
+                    <img src="/static/images/Gmail.png" alt="Gmail" class="footer-logo">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>Network Latency, Jitter, and Bandwidth Tester</h1>
+            <p>Test your connection to any host by measuring network latency, jitter, and bandwidth.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-container">
+            <form id="network-form" class="form-section">
+                <div class="form-group">
+                    <label for="host">Enter Host (e.g., google.com):</label>
+                    <input type="text" id="host" name="host" class="input-field" placeholder="Host" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="port">Enter Port (e.g., 443):</label>
+                    <input type="number" id="port" name="port" class="input-field" placeholder="Port" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Test Network</button>
+            </form>
+
+            <div id="results" class="results-section" style="display: none;">
+                <h2>Results</h2>
+                <div class="result-item">
+                    <p><strong>Latency:</strong> <span id="latency">N/A</span> </p>
+                </div>
+                <div class="result-item">
+                    <p><strong>Jitter:</strong> <span id="jitter">N/A</span> </p>
+                </div>
+                <div class="result-item">
+                    <p><strong>Bandwidth:</strong> <span id="bandwidth">N/A</span> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="/static/images/rb_18383.png" alt="Network Testing" class="side-image">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Network Tester &copy; 2024. Designed for speed, precision, and accuracy.</p>
+        <div class="footer-links">
+            <a href="https://github.com/IshaanJainOfficial" target="_blank">
+                <img src="/static/images/github1-removebg-preview.png" alt="GitHub" class="footer-logo">
+            </a>
+            <a href="mailto:ishaan_j@cs.iitr.ac.in">
+                <img src="/static/images/Gmail.png" alt="Gmail" class="footer-logo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
